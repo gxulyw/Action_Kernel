@@ -8,5 +8,5 @@ rm -rf $KERNEL_PATH/out/ *.zip
 make mrproper && git reset --hard HEAD
 
 echo "=========================make========================="
-make O=out lineageos_timelm_defconfig
+make O=out lge_timelm_defconfig
 make O=out
